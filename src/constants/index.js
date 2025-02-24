@@ -1,9 +1,9 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import Apaale from "../assets/projects/Apaale.png";
-import Apaale_Driver from "../assets/projects/Apaale_driver.png";
-import Salaati from "../assets/projects/salaati_logo.jpg";
-import softcodixWHMS from "../assets/projects/Softcodix WHMS.jpg";
+// import project1 from "../assets/projects/project-1.jpg";
+// import project2 from "../assets/projects/project-2.jpg";
+// import Apaale from "../assets/projects/Apaale.png";
+// import Apaale_Driver from "../assets/projects/Apaale_driver.png";
+// import Salaati from "../assets/projects/salaati_logo.jpg";
+// import softcodixWHMS from "../assets/projects/Softcodix WHMS.jpg";
 
 // export const HERO_CONTENT = `I am a dedicated Flutter developer specializing in Flutter, with 2 years of hands-on experience building scalable and high-performance mobile and web applications. My expertise spans front-end development using Flutter (with GetX, Provider, and MVC architecture) and back-end technologies including Node.js, Firebase, MongoDB, SQLite, and PostgreSQL. I have a deep understanding of API integration, real-time communication (WebSockets), cloud-based solutions, and AI integration in mobile applications. My goal is to craft seamless, user-centric applications that drive innovation and efficiency.`;
 export const HERO_CONTENT = `I am a passionate Flutter developer with 2 years of experience in building scalable and high-performance mobile and web applications. My expertise includes Flutter (GetX, Provider, MVC), back-end technologies (Node.js, Firebase, MongoDB, SQLite, PostgreSQL), and AI integration in mobile apps. I specialize in API integration, real-time communication (WebSockets), and cloud-based solutions to deliver seamless, user-centric experiences.`;
