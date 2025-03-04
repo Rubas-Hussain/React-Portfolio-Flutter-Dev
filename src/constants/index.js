@@ -52,6 +52,23 @@ export const EXPERIENCES = [
   // },
 ];
 
+export const SKILLS = [
+  {'Dart':['OOP','Asynchronous Programming','Null Safety','Type Safety','Functional Programming','Streams','Future','Isolates']},
+  {'Flutter':['GetX','Provider','MVC Architecture','MVVM Architecture',"Clean Code",'API Integration','Firebase','Push Notifications','API Integration',]},
+  // {'Node.js':['Express','RESTful APIs','WebSockets','Socket.io','MongoDB','SQLite','PostgreSQL']},
+  {'Database':['SQLite','Firestore','Realtime Database','MongoDB','PostgreSQL']},
+  {'Firebase':['Authentication','Firestore','Realtime Database','Cloud Functions','Cloud Messaging']},
+  // {'AI Integration':['TensorFlow','ML Kit','AI/ML Models','Image Recognition','Natural Language Processing']},
+  {'Third-Party-Integrations':['Google Maps','Live Tracking','AI Integration','Payment Gateway Integration','Chat Integration','Qibla Integration',]},
+  // {'Web Development':['HTML','CSS','JavaScript','React.js','Svelte','Three.js','Python','Django','Ruby','Rails','PHP']},
+  {'Version Control':['Git','Github',]},
+  {'Dev-Tools':['VS Code','Android Studio','Xcode','Postman','Figma','Jira','Trello','Google Meet']},
+  // {'Testing':['Unit Testing','Integration Testing','UI Testing','Test Driven Development']},
+  {'Deployment':['Google Play Store','Apple App Store','Firebase Hosting','C-Panel','Netlify','Vercel',]},
+  // {'Others':['Responsive Design','Mobile Responsiveness','SEO Optimization','Performance Optimization','Cross-platform Development']},
+  
+];
+
 export const PROJECTS = [
   {
     title: "Apaale App",
@@ -89,6 +106,8 @@ export const PROJECTS = [
     technologies: ["Flutter", "Dart", "GetX","MVC Architecture","API Integration","Mobile Responsiveness",],
   },
 ];
+
+
 
 export const CONTACT = {
   // address: "767 Fifth Avenue, New York, NY 10153",
