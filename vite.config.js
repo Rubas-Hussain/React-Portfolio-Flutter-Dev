@@ -8,6 +8,6 @@ export default defineConfig({
     tailwindcss(),
   ],
   server: {
-    historyApiFallback: true, // ensures local dev routes work too
+    historyApiFallback: true,
   }
 })
