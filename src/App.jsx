@@ -41,7 +41,7 @@ const App = () => {
       {/* light theme */}
       {/* <div class="absolute bottom-auto left-auto right-0 top-0 h-[500px] w-[500px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(173,109,244,0.5)] opacity-50 blur-[80px]">
         </div> */}
-      <div className='container mx-auto px-8 h-screen'>
+      <div  className='container mx-auto px-8 h-screen'>
 {/* <div className='container mx-auto px-8 min-h-screen pb-20'> */}
         {/* <Navbar />
       
