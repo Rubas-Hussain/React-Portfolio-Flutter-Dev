@@ -24,7 +24,7 @@ const Navbar = () => {
           className='bg-transparent rounded-lg border-2 border-neutral-800 px-4 py-3 text-lg font-semibold mr-5 mb-2 transform transition-transform hover:scale-105 hover:bg-neutral-900 hover:text-slate-300 cursor-pointer'
         >
           <a
-            href="public/resume/Rubas-Flutter-Dev-CV+2-1.pdf"
+            href="/Rubas-Flutter-Dev-CV_v2_v1.pdf"
             target="_blank"
             rel="noreferrer"
           >
