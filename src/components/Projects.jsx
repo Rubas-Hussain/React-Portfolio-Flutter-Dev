@@ -14,7 +14,8 @@ function Projects() {
                 Projects
             </motion.h2>
             <div>
-                {PROJECTS.map((project, index) => (
+                {PROJECTS.slice(0, 4).map((project, index) => (
+
                     <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
                         <motion.div
                             variants={animateFromLeft(0.2)}
@@ -23,7 +24,7 @@ function Projects() {
                             className='w-full lg:w-1/4 h-auto'>
                             {/* <img width={200} height={150} className='mb-8 rounded' src={project.image} alt={project.title} /> */}
                             <img
-                                className='mb-8 rounded object-fit w-[200px] h-[150px]'
+                                className='mb-8 rounded-xl object-fit w-[210px] h-[170px]'
                                 src={project.image}
                                 alt={project.title}
                             />
@@ -50,6 +51,18 @@ function Projects() {
                     </div>
 
                 ))}
+            </div>
+            <div className="flex justify-center mt-10">
+                <motion.button
+                    variants={animateFromTop(0)}
+                    initial='hidden'
+                    whileInView='visible'
+                    className='bg-transparent rounded-lg border-2 border-neutral-800 px-6 py-3 text-lg font-semibold transform transition-transform hover:scale-105 hover:bg-neutral-900 hover:text-slate-300 cursor-pointer'
+                >
+                    <a href="/all-projects">
+                        View All
+                    </a>
+                </motion.button>
             </div>
 
         </div>

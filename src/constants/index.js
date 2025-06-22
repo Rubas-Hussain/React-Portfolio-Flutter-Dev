@@ -27,7 +27,7 @@ export const EXPERIENCES = [
     role: "Senior Flutter Developer",
     company: "iPlexSoft",
     description: `Led a team in designing, developing, and maintaining high-performance mobile applications using Flutter. Architected scalable solutions with state management (Provider, MVVM) and optimized app performance. Integrated Firebase services, RESTful APIs, and WebSockets for real-time communication.Also integrated AI in mobile apps for enhanced performance. Collaborated with cross-functional teams to define project requirements and deliver user-centric applications.`,
-    technologies: ["Dart", "Flutter", "AI Integration","Firebase", "API Integration", "Provider", "MVVM Architecture"],
+    technologies: ["Dart", "Flutter", "AI Integration", "Firebase", "API Integration", "Provider", "MVVM Architecture"],
   },
   {
     year: "2023 - 2024",
@@ -53,59 +53,128 @@ export const EXPERIENCES = [
 ];
 
 export const SKILLS = [
-  {'Dart':['OOP','Asynchronous Programming','Null Safety','Type Safety','Functional Programming','Streams','Future','Isolates']},
-  {'Flutter':['GetX','Provider','MVC Architecture','MVVM Architecture',"Clean Code",'API Integration','Firebase','Push Notifications','API Integration',]},
+  { 'Dart': ['OOP', 'Asynchronous Programming', 'Null Safety', 'Type Safety', 'Functional Programming', 'Streams', 'Future', 'Isolates'] },
+  { 'Flutter': ['GetX', 'Provider', 'MVC Architecture', 'MVVM Architecture', "Clean Code", 'API Integration', 'Firebase', 'Push Notifications', 'API Integration',] },
   // {'Node.js':['Express','RESTful APIs','WebSockets','Socket.io','MongoDB','SQLite','PostgreSQL']},
-  {'Database':['SQLite','Firestore','Realtime Database','MongoDB','PostgreSQL']},
-  {'Firebase':['Authentication','Firestore','Realtime Database','Cloud Functions','Cloud Messaging']},
+  { 'Database': ['SQLite', 'Firestore', 'Realtime Database', 'MongoDB', 'PostgreSQL'] },
+  { 'Firebase': ['Authentication', 'Firestore', 'Realtime Database', 'Cloud Functions', 'Cloud Messaging'] },
   // {'AI Integration':['TensorFlow','ML Kit','AI/ML Models','Image Recognition','Natural Language Processing']},
-  {'Third-Party-Integrations':['Google Maps','Live Tracking','AI Integration','Payment Gateway Integration','Chat Integration','Qibla Integration',]},
+  { 'Third-Party-Integrations': ['Google Maps', 'Live Tracking', 'AI Integration', 'Payment Gateway Integration', 'Chat Integration', 'Qibla Integration',] },
   // {'Web Development':['HTML','CSS','JavaScript','React.js','Svelte','Three.js','Python','Django','Ruby','Rails','PHP']},
-  {'Version Control':['Git','Github',]},
-  {'Dev-Tools':['VS Code','Android Studio','Xcode','Postman','Figma','Jira','Trello','Google Meet']},
+  { 'Version Control': ['Git', 'Github',] },
+  { 'Dev-Tools': ['VS Code', 'Android Studio', 'Xcode', 'Postman', 'Figma', 'Jira', 'Trello', 'Google Meet'] },
   // {'Testing':['Unit Testing','Integration Testing','UI Testing','Test Driven Development']},
-  {'Deployment':['Google Play Store','Apple App Store','Firebase Hosting','C-Panel','Netlify','Vercel',]},
+  { 'Deployment': ['Google Play Store', 'Apple App Store', 'Firebase Hosting', 'C-Panel', 'Netlify', 'Vercel',] },
   // {'Others':['Responsive Design','Mobile Responsiveness','SEO Optimization','Performance Optimization','Cross-platform Development']},
-  
+
 ];
+
 
 export const PROJECTS = [
   {
-    title: "Apaale App",
-    image: 'https://images.pexels.com/photos/7309940/pexels-photo-7309940.jpeg?auto=compress&cs=tinysrgb&w=600',
+    title: "Salaati – Jamaat Times & Prayer Scheduler",
+    image: 'https://play-lh.googleusercontent.com/TWUlGPGUUW45I-VVblg705tk7KIUnmFvmIvcGyXE5wHNT6IWfB3Xg6bnauLkxINFDw=w480-h960-rw',
     description:
-    "Effortless logistics & transport management. Track trips, manage drivers, and streamline invoicing. Simplifies driver registration, vehicle management, trip tracking, and invoicing—all in one place.",
-    technologies: ["Flutter", "Dart", "Provider","MVVM Architecture","API Integration","Firebase", "Push Notifications", "AI Integration","Google Map Integration",],
+      "Built a location-based Islamic utility app that helps users find nearby masjids, view accurate prayer times, get real-time notifications, and determine Qibla direction. Integrated Google Maps, personalized filters, and event alerts for a seamless user experience.",
+    technologies: [
+      "Flutter", "Dart", "Provider", "MVVM Architecture", "API Integration", "Firebase",
+      "Push Notifications", "AI Integration", "Google Maps Integration"
+    ],
+    playStore: 'https://play.google.com/store/apps/details?id=com.softcodix.namaz_app&hl=en',
+    appStore: 'https://apps.apple.com/pk/app/salaati/id6743207975',
+    webLink: null
+  },
+   {
+    title: "AlfGrowth – Assisted Living Wellness Platform",
+    image: 'https://play-lh.googleusercontent.com/WdIOmdpIvgrgX4mhisDXn-vp1N5BXX3bCK6CPPXVjRZlIJMnc-fTQjhyRNTb4xQ_FQ=w480-h960-rw',
+    description:
+      "A healthcare-focused mobile solution that improves communication, scheduling, and wellness tracking for residents and caregivers in assisted living facilities. Includes chat, medication reminders, therapy sessions, and more.",
+    technologies: [
+      "Flutter", "Dart", "Provider", "MVVM Architecture", "API Integration", "Firebase",
+      "Chat Integration", "Push Notifications", "Agora Video Call Integration"
+    ],
+    playStore: 'https://play.google.com/store/apps/details?id=com.alfgrowth&hl=en',
+    appStore: null,
+    webLink: null
   },
   {
-    title: "Apaale Driver App",
-    image: 'https://images.pexels.com/photos/6169056/pexels-photo-6169056.jpeg?auto=compress&cs=tinysrgb&w=600',
+    title: "Artabia – Online Art Marketplace Platform",
+    image: 'https://play-lh.googleusercontent.com/esKzD0N1YsaH8426YDU51eWmEWdSOegFUIvGhhRZaAhhKwfVEFRmpbSrieiEtbxvbA=w480-h960-rw',
     description:
-      "Effortless logistics & transport management. Track trips, manage drivers, and streamline invoicing. Simplifies driver registration, vehicle management, trip tracking, and invoicing—all in one place.",
-    technologies: ["Flutter", "Dart", "Provider","MVVM Architecture","API Integration","Firebase", "Push Notifications", "AI Integration","Google Map Integration",],
+      "A full-featured digital marketplace where artists can upload, showcase, and sell original artwork. Features include user authentication, messaging, and secure payments to support global creators.",
+    technologies: [
+      "Flutter", "Dart", "Provider", "MVVM Architecture", "API Integration", "Firebase",
+      "Chat Integration", "Push Notifications", "Payment Integration"
+    ],
+    playStore: 'https://play.google.com/store/apps/details?id=com.artist.artabia&hl=en',
+    appStore: null,
+    webLink: null
   },
   {
-    title: "Softcodix WHMS App",
-    image: 'https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=600',
+    title: "Apaale – End-to-End Logistics Platform",
+    image: 'https://play-lh.googleusercontent.com/r4YgfR3DcWwFKyHGD1YvC24zFIDbwDBX_NOIou2bVT27kBo4MuSubgpXKDxwfqvOGA=w480-h960-rw',
     description:
-      "A mobile application for managing domains, hostings and customers data while managing their  service expirations and on time service scheduling.",
-    technologies: ["Flutter", "Dart", "GetX","MVC Architecture","API Integration","Firebase", "Push Notifications",],
+      "An all-in-one logistics platform enabling users to track deliveries, manage drivers and fleets, and generate invoices in real-time—designed for simplicity and scalability.",
+    technologies: [
+      "Flutter", "Dart", "Provider", "MVVM Architecture", "API Integration", "Firebase",
+      "Push Notifications", "AI Integration", "Google Maps Integration"
+    ],
+    playStore: 'https://play.google.com/store/apps/details?id=app.logistics.user',
+    appStore: 'https://apps.apple.com/us/app/apaale/id6502597789',
+    webLink: null
   },
   {
-    title: "Salaati App",
-    image: 'https://images.pexels.com/photos/87500/pexels-photo-87500.jpeg?auto=compress&cs=tinysrgb&w=600',
+    title: "Apaale Driver – Delivery Partner Companion App",
+    image: 'https://play-lh.googleusercontent.com/JdUQR3-gPQ9iOAWLAxVqMTY25XPidJ83yPod1xR0ghq88hI56RlIbSQoxkntLemwaQM=w480-h960-rw',
     description:
-      "A mobile application for keeping track of congregational prayer timings of masjids in respective user location helping.",
-    technologies: ["Flutter", "Dart", "GetX","MVVM Architecture","API Integration","Firebase", "Push Notifications", "Qibla Integration","Google Map Integration",],
+      "Companion driver app for Apaale's logistics platform—built for seamless fleet management, trip updates, and real-time delivery status monitoring with an intuitive UI.",
+    technologies: [
+      "Flutter", "Dart", "Provider", "MVVM Architecture", "API Integration", "Firebase",
+      "Push Notifications", "AI Integration", "Google Maps Integration"
+    ],
+    playStore: 'https://play.google.com/store/apps/details?id=app.logistics.driver',
+    appStore: 'https://apps.apple.com/us/app/logistic-supplier/id6502517359',
+    webLink: null
   },
   {
-    title: "Softcodix Attendance Management System",
+    title: "معکم مستشار – 24/7 Virtual Consulting App",
+    image: 'https://play-lh.googleusercontent.com/myj4w0Gy-e7Xe0R7VeVWBxLuFe3twPsIfaxtDebCr9wWZArxBbzgESFCmABP73XQS1k=w480-h960-rw',
+    description:
+      "An on-demand virtual consultation app connecting users with qualified experts in health, legal, career, and relationships. Offers secure video calls, real-time chat, and seamless appointment booking.",
+      technologies: [
+      "Flutter", "Dart", "Provider", "MVVM Architecture", "API Integration", "Firebase",
+      "Chat Integration", "Push Notifications", "ZegoCloud Video Call Integration", "Payment Integration"
+    ],
+    playStore: 'https://play.google.com/store/apps/details?id=iplex.consultant.wefaq.com&hl=en',
+    appStore: 'https://apps.apple.com/us/app/m3kom/id6460889820',
+    webLink: null
+  },
+  {
+    title: "Softcodix WHMS – Hosting & Client Management App",
+    image: 'https://media.licdn.com/dms/image/v2/D4D0BAQFE95heoaP6FQ/company-logo_100_100/company-logo_100_100/0/1722404875840/softcodix_logo?e=1756339200&v=beta&t=e1AVNko3IQfLFxehGjL3HYoxcE3YjYXixzIzX79v_DI',
+    description:
+      "A mobile client for managing hosting and domain services. Helps businesses monitor client subscriptions, service expirations, and automate notifications through a simple admin dashboard.",
+    technologies: [
+      "Flutter", "Dart", "GetX", "MVC Architecture", "API Integration", "Firebase", "Push Notifications"
+    ],
+    playStore: null,
+    appStore: null,
+    webLink: 'https://drive.google.com/drive/folders/1yfAd0mnXCHEDNXcz4az8R0rFzXV0mcXm'
+  },
+  {
+    title: "Softcodix AMS – Attendance Management System",
     image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600',
     description:
-      "A  web platform for effortless managment of employees. Simplifies employee registration, attendance management, leave tracking, shift management, and payroll—all in one place.",
-    technologies: ["Flutter", "Dart", "GetX","MVC Architecture","API Integration","Mobile Responsiveness",],
+      "A responsive web platform for employee management, featuring attendance tracking, shift scheduling, leave management, and payroll processing—designed for simplicity and efficiency.",
+    technologies: [
+      "Flutter", "Dart", "GetX", "MVC Architecture", "API Integration", "Mobile Responsiveness"
+    ],
+    playStore: null,
+    appStore: null,
+    webLink: 'https://demo.softcodix.com/attendance/'
   },
 ];
+
 
 
 
