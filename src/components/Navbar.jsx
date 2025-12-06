@@ -12,7 +12,7 @@ const Navbar = () => {
       {/* Buttons – responsive layout */}
       <div className='flex sm:flex-row items-center gap-3'>
         <a
-          href="/Rubas-Flutter-Dev-CV_v2_v1.pdf"
+          href="/Rubas-Flutter-Dev-CV_v2_v2.pdf"
           target="_blank"
           rel="noreferrer"
           className='w-full sm:w-auto text-center bg-transparent rounded-lg border-2 border-neutral-800 px-4 py-2 text-sm sm:text-base font-semibold hover:bg-neutral-900 hover:text-slate-300 transition'
