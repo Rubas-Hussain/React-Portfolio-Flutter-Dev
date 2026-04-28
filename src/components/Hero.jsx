@@ -1,6 +1,6 @@
 import React from 'react'
 import { HERO_CONTENT } from '../constants/index'
-import profilePic from "../assets/kevinRushProfile.png"
+import profilePic from "../assets/rubas.png"
 import { motion } from "framer-motion"
 import { animateFromLeft, animateFromRight } from '../utils/animation'
 
@@ -36,6 +36,7 @@ function Hero() {
                     variants={animateFromRight(0.6)}
                     initial='hidden'
                     animate='visible'
+                    className='w-[280px] sm:w-[360px] lg:w-[500px] aspect-square rounded-2xl object-cover object-top'
                     src={profilePic} alt="Rubas"/>
                 </div>
                 </div>
