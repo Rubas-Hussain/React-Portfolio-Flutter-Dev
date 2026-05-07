@@ -32,7 +32,7 @@ export const EXPERIENCES = [
     Worked on app scalabality, performance enhancement, preventing memory leaks, 
     debugging and optimization of legacy codebases and their structures.,
     Integrated Firebase services, RESTful APIs, and WebSockets to deliver secure, real-time features.`,
-    technologies: ["Dart", "Flutter", "Performance Optimization", "Dependency Injections", "Asynchronous Programming", 
+    technologies: ["Dart", "Flutter", "Performance Optimization", "Dependency Injections", "Asynchronous Programming",
       "Real-Time Live Tracking", "GetX", "MVC Architecture",
     ],
   },
@@ -101,14 +101,51 @@ export const SKILLS = [
 
 export const PROJECTS = [
   {
+    title: "Load Secure",
+    image: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/1e/40/611e408e-33c0-53ba-339e-894ed4df1419/89819212-afe6-4c79-a698-8eabf9d51a04_iPhone_6.5__-_1.0.png/460x996bb.webp',
+    backgroundColor: '#FDFAFD',
+    description:
+      `Load Secure is a logistics tracking app that provides real-time shipment visibility and automated delivery status updates.  
+It helps dispatch teams and customers monitor orders while improving efficiency through intelligent delay and risk detection.  
+The app also supports drivers with safe, privacy-focused tracking, document management, and essential road assistance tools.`,
+
+    technologies: [
+      "Flutter", "Dart", "Bloc", "Clean Architecture", "Driver's Live Tracking",
+      "API Integration", "Push Notifications", "Google Maps Integration",
+    ],
+    playStore: 'https://play.google.com/store/apps/details?id=com.cinnova.loadsecure',
+    appStore: 'https://apps.apple.com/us/app/load-secure/id1526466951',
+    webLink: null
+  },
+  {
+    title: "Motiv Teams",
+    image: 'https://static.wixstatic.com/media/214de5_5d5bd6a7274346b9ad652cddea1d25c1~mv2.png/v1/fill/w_1200,h_990,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Motiv%203D%20phone%20April%202026_edited_edited_.png',
+    backgroundColor: '#424242',
+    description:
+      `Motiv Teams is a mobile platform designed to simplify high school sports team management.  
+It centralizes communication, scheduling, and coordination to reduce administrative workload for coaches and staff.  
+The app helps teams focus more on performance and training by improving organization and communication efficiency.`,
+
+    technologies: [
+      "Flutter", "Dart", "Bloc", "Clean Architecture", "One to One and Group Chat Integration",
+      "Scheduling and Calendar Integration", "Event Management", "Multi Roles Based Authentication",
+      "Multi Language Support", "Multi Theme Support",
+    ],
+    playStore: 'https://play.google.com/store/apps/details?id=com.motive.sports',
+    appStore: 'https://apps.apple.com/us/app/motiv-teams/id6738299992',
+    webLink: null
+  },
+  {
     title: "Hyrise",
-    image: 'https://play-lh.googleusercontent.com/FLEc6tvVNv_61CSkhOAreuGQUy4nTqac52zSkUHJVUAOjEJRMGC4tn3cWpfQvmDJcDU87PQEElk6bfUpzQV3=w480-h960-rw',
+    // image: 'https://play-lh.googleusercontent.com/FLEc6tvVNv_61CSkhOAreuGQUy4nTqac52zSkUHJVUAOjEJRMGC4tn3cWpfQvmDJcDU87PQEElk6bfUpzQV3=w480-h960-rw',
+    image: 'https://hyrise.app/wp-content/uploads/2025/10/Frame-1597880347-1-scaled.png',
+    backgroundColor: '#F0F6F9',
     description:
       `Hyrise is a community housing app designed to guide buyers and sellers step by step through the home buying process. Whether you’re a first-time buyer or planning your next investment, Hyrise gives you all the tools, resources, and connections you need all in one place.`,
-      //  Owning a home is one of life’s biggest achievements and with Hyrise, your path to homeownership just became easier, smarter, and more connected.,
+    //  Owning a home is one of life’s biggest achievements and with Hyrise, your path to homeownership just became easier, smarter, and more connected.,
     technologies: [
       "Flutter", "Dart", "Provider", "MVVM", "API Integration",
-      "Push Notifications","Web Socket Chat Integration"
+      "Push Notifications", "Web Socket Chat Integration"
     ],
     playStore: 'https://play.google.com/store/apps/details?id=com.hyrise.app',
     appStore: 'https://apps.apple.com/us/app/hyrise/id6748963590',
@@ -116,8 +153,9 @@ export const PROJECTS = [
   },
   {
     title: "Rellax Tinnitus",
-    image: 'https://play-lh.googleusercontent.com/_psWZ3BqVVm6LIcUoSm43D_u54TSRDDnPazUK097fl9y2BUcoTMGIXK76XzxS0R2Qw=w480-h960-rw',
-    // image: 'https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/96/0d/74960ddb-756e-c7af-2038-46bbc51cbb8f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/400x400ia-75.webp',
+    // image: 'https://play-lh.googleusercontent.com/_psWZ3BqVVm6LIcUoSm43D_u54TSRDDnPazUK097fl9y2BUcoTMGIXK76XzxS0R2Qw=w480-h960-rw',
+    image: 'https://rellax.co/wp-content/uploads/2026/02/Group-1597880398-2-scaled.png',
+    backgroundColor: '#FDFAFD',
     description:
       `Personalized Sound Therapy for Lasting Relief:
       Rellax Tinnitus is designed to help you manage and reduce the impact of tinnitus on your daily life through advanced sound therapy and interactive progress tracking.
@@ -131,6 +169,7 @@ export const PROJECTS = [
     appStore: 'https://apps.apple.com/us/app/rellax-tinnitus/id6502765969',
     webLink: null
   },
+
   {
     title: "Salaati – Jamaat Times & Prayer Scheduler",
     image: 'https://softcodix.com/wp-content/uploads/2025/09/Salaati-scaled.webp',
@@ -150,7 +189,7 @@ export const PROJECTS = [
     description:
       "A mobile client for managing hosting and domain services. Helps businesses monitor client subscriptions, service expirations, and automate notifications through a simple admin dashboard.",
     technologies: [
-      "Flutter", "Dart", "GetX", "MVC Architecture",   "API Integration", "Firebase", "Push Notifications"
+      "Flutter", "Dart", "GetX", "MVC Architecture", "API Integration", "Firebase", "Push Notifications"
     ],
     playStore: "https://play.google.com/store/apps/details?id=com.softcodix.digihost",
     appStore: 'https://apps.apple.com/us/app/digi-host/id6746712593',

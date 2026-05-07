@@ -42,11 +42,21 @@ function AllProjects() {
                         viewport={{ once: true }}
                         className='flex flex-col lg:flex-row gap-8 border-2 border-neutral-800 rounded-xl p-6 bg-neutral-900/30'
                     >
-                        <img
+                        {/* <img
                             className='w-[300px] h-[180px] object-cover rounded-xl'
                             src={project.image}
                             alt={project.title}
-                        />
+                        /> */}
+                        <div
+                            className="shrink-0 mx-auto lg:mx-0 mb-8 lg:mb-0 rounded-xl w-[210px] h-[170px] min-w-[210px] min-h-[170px] overflow-hidden flex items-center justify-center"
+                            style={{ backgroundColor: project.backgroundColor || "transparent" }}
+                        >
+                            <img
+                                className="max-w-full max-h-full w-full h-full object-contain object-center"
+                                src={project.image}
+                                alt={project.title}
+                            />
+                        </div>
 
                         <div className='flex flex-col justify-between'>
                             <div>

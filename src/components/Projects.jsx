@@ -19,15 +19,20 @@ function Projects() {
                     <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
                         <motion.div
                             variants={animateFromLeft(0.2)}
-                            whileInView='visible'
-                            initial='hidden'
-                            className='w-full lg:w-1/4 h-auto'>
-                            {/* <img width={200} height={150} className='mb-8 rounded' src={project.image} alt={project.title} /> */}
-                            <img
-                                className='mb-8 rounded-xl object-fit w-[210px] h-[170px]'
-                                src={project.image}
-                                alt={project.title}
-                            />
+                            whileInView="visible"
+                            initial="hidden"
+                            className="w-full lg:w-1/4 h-auto text-white"
+                        >
+                            <div
+                                className="shrink-0 mx-auto lg:mx-0 mb-8 lg:mb-0 rounded-xl w-[210px] h-[170px] min-w-[210px] min-h-[170px] overflow-hidden flex items-center justify-center"
+                                style={{ backgroundColor: project.backgroundColor || "transparent" }}
+                            >
+                                <img
+                                    className="max-w-full max-h-full w-full h-full object-contain object-center"
+                                    src={project.image}
+                                    alt={project.title}
+                                />
+                            </div>
                         </motion.div>
                         <motion.div
                             variants={animateFromRight(0.2)}
