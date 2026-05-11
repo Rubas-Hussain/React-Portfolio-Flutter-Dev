@@ -16,7 +16,7 @@ export const HERO_CONTENT = `I am a passionate Flutter developer with 3+ years o
 // Outside of coding, I love exploring new technologies, contributing to open-source projects, and staying updated with the latest advancements in AI and mobile development.`;
 export const ABOUT_TEXT = `As a dedicated full-stack Flutter developer, I thrive on crafting efficient and user-friendly applications. My journey into development began with a curiosity for digital experiences, which has since evolved into a career focused on solving complex problems and driving innovation.
 
-With 2 years of hands-on experience, I specialize in Flutter (using GetX, Provider, and MVC) and work extensively with back-end technologies like Node.js, Firebase, MongoDB, SQLite, and PostgreSQL. My expertise includes AI integration in mobile apps, real-time communication (WebSockets), and cloud-based solutions.
+With 3+ years of hands-on experience, I specialize in Flutter (using GetX, Provider, and MVC) and work extensively with back-end technologies like Node.js, Firebase, MongoDB, SQLite, and PostgreSQL. My expertise includes AI integration in mobile apps, real-time communication (WebSockets), and cloud-based solutions.
 
 Beyond coding, I enjoy exploring new technologies, contributing to open-source projects, and continuously expanding my knowledge in AI and mobile development. I thrive in collaborative environments, always aiming to build impactful, high-quality applications.`;
 
