@@ -5,15 +5,9 @@
 // import Salaati from "../assets/projects/salaati_logo.jpg";
 // import softcodixWHMS from "../assets/projects/Softcodix WHMS.jpg";
 
-// export const HERO_CONTENT = `I am a dedicated Flutter developer specializing in Flutter, with 2 years of hands-on experience building scalable and high-performance mobile and web applications. My expertise spans front-end development using Flutter (with GetX, Provider, and MVC architecture) and back-end technologies including Node.js, Firebase, MongoDB, SQLite, and PostgreSQL. I have a deep understanding of API integration, real-time communication (WebSockets), cloud-based solutions, and AI integration in mobile applications. My goal is to craft seamless, user-centric applications that drive innovation and efficiency.`;
 export const HERO_CONTENT = `I am a passionate Flutter developer with 3+ years of experience in building scalable and high-performance mobile and web applications. My expertise includes Flutter (GetX, Provider, MVC), back-end technologies (Node.js, Firebase, MongoDB, SQLite, PostgreSQL), and AI integration in mobile apps. I specialize in API integration, real-time communication (WebSockets), and cloud-based solutions to deliver seamless, user-centric experiences.`;
 
 
-// export const ABOUT_TEXT = `I am a dedicated and versatile full-stack developer specializing in Flutter, with a passion for building efficient, high-performance mobile and web applications. With 2 years of professional experience, I have worked extensively with Flutter (using GetX, Provider, and MVC architecture) and back-end technologies like Node.js, Firebase, MongoDB, SQLite, and PostgreSQL. My journey in development started with a curiosity for crafting seamless digital experiences, and it has evolved into a career where I continuously embrace new challenges and innovations.
-
-// I have a strong focus on AI integration in mobile applications, API development, real-time communication (WebSockets), and cloud-based solutions. I thrive in collaborative environments and enjoy problem-solving to deliver high-quality, user-centric applications.
-
-// Outside of coding, I love exploring new technologies, contributing to open-source projects, and staying updated with the latest advancements in AI and mobile development.`;
 export const ABOUT_TEXT = `As a dedicated full-stack Flutter developer, I thrive on crafting efficient and user-friendly applications. My journey into development began with a curiosity for digital experiences, which has since evolved into a career focused on solving complex problems and driving innovation.
 
 With 3+ years of hands-on experience, I specialize in Flutter (using GetX, Provider, and MVC) and work extensively with back-end technologies like Node.js, Firebase, MongoDB, SQLite, and PostgreSQL. My expertise includes AI integration in mobile apps, real-time communication (WebSockets), and cloud-based solutions.
