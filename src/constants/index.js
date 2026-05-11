@@ -255,6 +255,7 @@ The app helps teams focus more on performance and training by improving organiza
   },
   {
     title: "Track My Work: HRMS Tracker",
+    backgroundColor: '#437FF6',
     image: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/fd/a5/d2fda54a-622e-39e5-2a6e-bb2c099cf1c4/unnamed__U00282_U0029.png/460x996bb.webp',
     description:
       "A responsive web platform for employee management, featuring attendance tracking, shift scheduling, leave management, and payroll processing—designed for simplicity and efficiency.",
