@@ -217,7 +217,7 @@ The app helps teams focus more on performance and training by improving organiza
       "Chat Integration", "Push Notifications", "Agora Video Call Integration"
     ],
     playStore: 'https://play.google.com/store/apps/details?id=com.alfgrowth&hl=en',
-    appStore: null,
+    appStore: 'https://apps.apple.com/us/app/alfgrowth/id6471911177',
     webLink: null
   },
   {
@@ -230,7 +230,7 @@ The app helps teams focus more on performance and training by improving organiza
       "Chat Integration", "Push Notifications", "Payment Integration"
     ],
     playStore: 'https://play.google.com/store/apps/details?id=com.artist.artabia&hl=en',
-    appStore: null,
+    appStore: 'https://apps.apple.com/us/app/artabia-mobile-app/id6759154122',
     webLink: null
   },
   {
@@ -260,6 +260,18 @@ The app helps teams focus more on performance and training by improving organiza
     webLink: null
   },
   {
+    title: "Track My Work: HRMS Tracker",
+    image: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/fd/a5/d2fda54a-622e-39e5-2a6e-bb2c099cf1c4/unnamed__U00282_U0029.png/460x996bb.webp',
+    description:
+      "A responsive web platform for employee management, featuring attendance tracking, shift scheduling, leave management, and payroll processing—designed for simplicity and efficiency.",
+    technologies: [
+      "Flutter", "Dart", "GetX", "MVC Architecture", "API Integration", "Mobile Responsiveness"
+    ],
+    playStore: null,
+    appStore: 'https://apps.apple.com/us/app/track-my-work-hrms-tracker/id6749223345',
+    webLink: null
+  },
+  {
     title: "Smarty Pay Desk",
     image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600',
     description:
@@ -281,4 +293,8 @@ export const CONTACT = {
   // address: "767 Fifth Avenue, New York, NY 10153",
   phoneNo: "+92 336 2060714",
   email: "rubasakhter.11@gmail.com",
+  github: "https://github.com/Rubas-Hussain",
+  linkedin: "https://www.linkedin.com/in/rubas-hussain-31a685246/",
+  instagram: "https://www.instagram.com/rubas_sheikh2019/",
+  // twitter: "https://x.com/rubas_sheikh2019",
 };
