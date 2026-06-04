@@ -20,7 +20,7 @@ function Hero() {
                         variants={animateFromLeft(0.2)}
                         initial='hidden'
                         animate='visible'
-                        className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl  tracking-light text-transparent'>Full Stack Flutter Developer</motion.span>
+                        className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl  tracking-light text-transparent'>Senior Mobile Engineer (iOS + Flutter)</motion.span>
                         <motion.p 
                         variants={animateFromLeft(0.4)}
                         initial='hidden'

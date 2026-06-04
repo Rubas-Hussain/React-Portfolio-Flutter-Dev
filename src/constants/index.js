@@ -5,59 +5,48 @@
 // import Salaati from "../assets/projects/salaati_logo.jpg";
 // import softcodixWHMS from "../assets/projects/Softcodix WHMS.jpg";
 
-export const HERO_CONTENT = `I am a passionate Flutter developer with 3+ years of experience in building scalable and high-performance mobile and web applications. My expertise includes Flutter (GetX, Provider, MVC), back-end technologies (Node.js, Firebase, MongoDB, SQLite, PostgreSQL), and AI integration in mobile apps. I specialize in API integration, real-time communication (WebSockets), and cloud-based solutions to deliver seamless, user-centric experiences.`;
+export const HERO_CONTENT = `I am a Senior Mobile Engineer with 4+ years of experience building scalable, user-centric iOS and cross-platform applications. I started my career in native iOS development with Swift and SwiftUI, then transitioned to Flutter to deliver high-performance apps for both Android and iOS. I have contributed to 15+ production apps—including platforms serving 15,000+ daily active users—with a strong focus on clean architecture, performance, and reliability.`;
 
 
-export const ABOUT_TEXT = `As a dedicated full-stack Flutter developer, I thrive on crafting efficient and user-friendly applications. My journey into development began with a curiosity for digital experiences, which has since evolved into a career focused on solving complex problems and driving innovation.
+export const ABOUT_TEXT = `My journey into mobile development began with native iOS, where I built a foundation in Swift, SwiftUI, UIKit, and modern architectural patterns like MVVM and MVC. Over time, I expanded into Flutter to ship cross-platform products faster without compromising quality.
 
-With 3+ years of hands-on experience, I specialize in Flutter (using GetX, Provider, and MVC) and work extensively with back-end technologies like Node.js, Firebase, MongoDB, SQLite, and PostgreSQL. My expertise includes AI integration in mobile apps, real-time communication (WebSockets), and cloud-based solutions.
+With 4+ years of hands-on experience, I specialize in end-to-end mobile development—from UI/UX implementation and REST API integration to Firebase services, real-time tracking, background services, and push notifications. I follow clean architecture principles to write maintainable, testable code and have mentored juniors and interns along the way.
 
-Beyond coding, I enjoy exploring new technologies, contributing to open-source projects, and continuously expanding my knowledge in AI and mobile development. I thrive in collaborative environments, always aiming to build impactful, high-quality applications.`;
+Beyond coding, I enjoy optimizing app performance, modernizing legacy codebases, and continuously expanding my skills across the iOS and Flutter ecosystems. I thrive in collaborative environments, always aiming to build impactful, production-grade applications.`;
 
 
 export const EXPERIENCES = [
   {
-    year: "October 2025 - Present",
-    role: "Mid Level Flutter Developer",
-    company: "Devdefy",
-    description: `Managed the development of multiple Flutter applications across diverse domains simultaneously, ensuring timely delivery and consistent code quality. 
-    Designed and implemented scalable architectures to accomodate thousands of users,
-    with a strong focus on performance optimization and maintainability. 
-    Worked on app scalabality, performance enhancement, preventing memory leaks, 
-    debugging and optimization of legacy codebases and their structures.,
-    Integrated Firebase services, RESTful APIs, and WebSockets to deliver secure, real-time features.`,
-    technologies: ["Dart", "Flutter", "Performance Optimization", "Dependency Injections", "Asynchronous Programming",
-      "Real-Time Live Tracking", "GetX", "MVC Architecture",
+    year: "August 2025 - Present",
+    role: "Senior Mobile Engineer (iOS & Flutter)",
+    company: "DevDefy",
+    description: `Managed the development of multiple applications across diverse domains, delivering scalable and high-performance solutions while maintaining code quality and timely releases. Designed robust architectures for thousands of users, focusing on scalability, performance optimization, memory leak prevention, debugging, and modernization of legacy codebases.`,
+    technologies: ["Swift", "SwiftUI", "UIKit", "Dart", "Flutter", "Clean Architecture", "Performance Optimization",
+      "Real-Time Live Tracking", "Firebase", "WebSockets",
     ],
   },
   {
-    year: "March 2025 - Present",
-    role: "Mid Level Flutter Developer (Part-Time)",
+    year: "December 2023 - July 2025",
+    role: "Mid-Level Mobile Application Developer (iOS & Flutter)",
     company: "Aman Albilad Systems | أنظمة أمان البلاد",
-    description: `Contributed to the development of reliable, production-ready mobile applications using Flutter. Implemented modular architectures with GetX and MVC pattern to ensure scalability and maintainability.
-    Worked with product owners/teams to translate requirements into polished, user-focused solutions.
-    Also supported junior developers by assisting in code debugging and improving overall code quality.`,
-    technologies: ["Dart", "Flutter", "Firebase Push Notifications", "API Integration", "GetX", "MVC Architecture"],
+    description: `Worked on multiple production applications with an existing user base, contributing to ongoing maintenance, feature enhancements, and continuous performance optimization. Mentored interns in designing, developing, and debugging applications. Implemented WebSockets for real-time tracking in a logistics delivery app with background location syncing, and actively participated in debugging and code reviews to optimize performance and maintain clean architecture.`,
+    technologies: ["Swift", "Flutter", "Dart", "WebSockets", "Google Maps", "Background Location Sync",
+      "Firebase Push Notifications", "MVVM", "MVC Architecture"],
   },
   {
-    year: "Jan 2025 - Dec 2025",
-    role: "Mid Level Flutter Developer",
+    year: "January 2023 - December 2023",
+    role: "Mid-Level Mobile Application Developer (iOS)",
     company: "iPlexSoft",
-    description: `Developed and maintained 6 to 7 production-grade mobile applications using Flutter. 
-    Built scalable features with state management patterns (Provider, MVVM) and ensured smooth UI/UX across platforms. 
-    Integrated Firebase services, RESTful APIs, and WebSockets for real-time data flow. 
-    Implemented AI-powered features to enhance user experience and app intelligence. 
-    Worked closely with designers and backend teams to translate requirements into reliable.
-    Helped juniors in debugging the code, guided them in writing cleaner and maintainable Flutter code..`,
-    technologies: ["Dart", "Flutter", "AI Integration", "Firebase", "API Integration", "Provider", "MVVM Architecture",
-      "Google Maps Live Tracking", "Zego Cloud SDK"],
+    description: `Built scalable, high-performance iOS apps aligned with client needs. Collaborated with Django backend and design teams to integrate APIs and deliver smooth user experiences. Optimized frontend performance and deployed multiple apps to the Apple App Store.`,
+    technologies: ["Swift", "SwiftUI", "UIKit", "MVVM", "MVC Architecture", "API Integration",
+      "Firebase", "Google Maps Live Tracking", "Zego Cloud SDK"],
   },
   {
-    year: "Dec 2023 - Feb 2025",
-    role: "Junior Flutter Developer",
+    year: "January 2022 - February 2023",
+    role: "Junior iOS Developer",
     company: "Softcodix",
-    description: `Designed and developed user interfaces for mobile and web applications using Flutter and Dart on the frontend. Worked closely with backend developers to integrate frontend components with Django APIs. Implemented responsive designs and optimized frontend performance. Also deployed several mobile apps on Google Play Store and Apple App Store.`,
-    technologies: ["Dart", "Flutter", "Firebase", "API Integration", "GetX", "MVC Architecture", "Qibla Integration"],
+    description: `Designed and developed native iOS applications using Swift and UIKit. Worked closely with backend developers to integrate frontend components with Django APIs. Implemented responsive designs, optimized app performance, and deployed multiple mobile apps to the Apple App Store.`,
+    technologies: ["Swift", "UIKit", "SwiftUI", "Firebase", "API Integration", "MVVM", "MVC Architecture"],
   },
   // {
   //   year: "2021 - 2022",
@@ -76,20 +65,15 @@ export const EXPERIENCES = [
 ];
 
 export const SKILLS = [
-  { 'Dart': ['OOP', 'Asynchronous Programming', 'Null Safety', 'Type Safety', 'Functional Programming', 'Streams', 'Future', 'Isolates'] },
-  { 'Flutter': ['GetX', 'Provider', 'MVC Architecture', 'MVVM Architecture', "Clean Code", 'API Integration', 'Firebase', 'Push Notifications', 'API Integration',] },
-  // {'Node.js':['Express','RESTful APIs','WebSockets','Socket.io','MongoDB','SQLite','PostgreSQL']},
-  { 'Database': ['SQLite', 'Firestore', 'Realtime Database', 'MongoDB', 'PostgreSQL'] },
-  { 'Firebase': ['Authentication', 'Firestore', 'Realtime Database', 'Cloud Functions', 'Cloud Messaging'] },
-  // {'AI Integration':['TensorFlow','ML Kit','AI/ML Models','Image Recognition','Natural Language Processing']},
-  { 'Third-Party-Integrations': ['Google Maps', 'Live Tracking', 'AI Integration', 'Payment Gateway Integration', 'Chat Integration', 'Qibla Integration',] },
-  // {'Web Development':['HTML','CSS','JavaScript','React.js','Svelte','Three.js','Python','Django','Ruby','Rails','PHP']},
-  { 'Version Control': ['Git', 'Github',] },
-  { 'Dev-Tools': ['VS Code', 'Android Studio', 'Xcode', 'Postman', 'Figma', 'Jira', 'Trello', 'Google Meet'] },
-  // {'Testing':['Unit Testing','Integration Testing','UI Testing','Test Driven Development']},
-  { 'Deployment': ['Google Play Store', 'Apple App Store', 'Firebase Hosting', 'C-Panel', 'Netlify', 'Vercel',] },
-  // {'Others':['Responsive Design','Mobile Responsiveness','SEO Optimization','Performance Optimization','Cross-platform Development']},
-
+  { 'Swift & iOS': ['Swift', 'SwiftUI', 'UIKit', 'OOP', 'Protocol-Oriented Programming', 'Async/Await', 'GCD', 'Closures', 'Optionals', 'Error Handling', 'Codable', 'URLSession', 'MVVM', 'MVC', 'Clean Architecture'] },
+  { 'iOS State Management': ['MVVM', 'MVC', 'Dependency Injection', 'ObservableObject', '@State', '@Binding', 'Combine'] },
+  { 'Dart & Flutter': ['OOP', 'Asynchronous Programming', 'Null Safety', 'Type Safety', 'Functional Programming', 'Streams', 'Futures', 'Isolates', 'GetX', 'Provider', 'Bloc', 'Clean Code', 'API Integration'] },
+  { 'Database': ['Core Data', 'UserDefaults', 'SQLite', 'Firestore', 'Realtime Database'] },
+  { 'Firebase': ['Authentication', 'Firestore', 'Cloud Functions', 'Cloud Messaging (FCM)'] },
+  { 'Third-Party-Integrations': ['Google Maps', 'Live Location Tracking', 'AI Integration', 'Payment Gateway Integration', 'Chat Integration', 'Audio/Video Calling', 'HealthKit / Health Connect Integration'] },
+  { 'Version Control': ['Git', 'GitHub'] },
+  { 'Dev-Tools': ['Xcode', 'VS Code', 'Android Studio', 'Postman', 'Figma', 'Jira', 'Microsoft Teams', 'Google Meet'] },
+  { 'Deployment': ['Apple App Store Connect', 'TestFlight', 'Google Play Console'] },
 ];
 
 
@@ -99,12 +83,10 @@ export const PROJECTS = [
     image: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/1e/40/611e408e-33c0-53ba-339e-894ed4df1419/89819212-afe6-4c79-a698-8eabf9d51a04_iPhone_6.5__-_1.0.png/460x996bb.webp',
     backgroundColor: '#FDFAFD',
     description:
-      `Load Secure is a logistics tracking app that provides real-time shipment visibility and automated delivery status updates.  
-It helps dispatch teams and customers monitor orders while improving efficiency through intelligent delay and risk detection.  
-The app also supports drivers with safe, privacy-focused tracking, document management, and essential road assistance tools.`,
+      `Architected and delivered a cross-platform real-time shipment tracking system using foreground services and background location synchronization, ensuring uninterrupted live tracking of drivers, accurate delivery predictions, and optimized battery usage with automatic privacy-safe tracking termination upon delivery. Currently used by 10,000+ users/drivers daily.`,
 
     technologies: [
-      "Flutter", "Dart", "Bloc", "Clean Architecture", "Driver's Live Tracking",
+      "Swift", "Flutter", "Dart", "Clean Architecture", "Background Location Sync",
       "API Integration", "Push Notifications", "Google Maps Integration",
     ],
     playStore: 'https://play.google.com/store/apps/details?id=com.cinnova.loadsecure',
@@ -116,12 +98,10 @@ The app also supports drivers with safe, privacy-focused tracking, document mana
     image: 'https://static.wixstatic.com/media/214de5_5d5bd6a7274346b9ad652cddea1d25c1~mv2.png/v1/fill/w_1200,h_990,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Motiv%203D%20phone%20April%202026_edited_edited_.png',
     backgroundColor: '#424242',
     description:
-      `Motiv Teams is a mobile platform designed to simplify high school sports team management.  
-It centralizes communication, scheduling, and coordination to reduce administrative workload for coaches and staff.  
-The app helps teams focus more on performance and training by improving organization and communication efficiency.`,
+      `Motiv Teams is a mobile platform designed to simplify high school sports team management. It centralizes communication, scheduling, and coordination to reduce administrative workload for coaches and staff. Currently with 3,500+ daily active users.`,
 
     technologies: [
-      "Flutter", "Dart", "Bloc", "Clean Architecture", "One to One and Group Chat Integration",
+      "Swift", "Flutter", "Dart", "Clean Architecture", "One to One and Group Chat Integration",
       "Scheduling and Calendar Integration", "Event Management", "Multi Roles Based Authentication",
       "Multi Language Support", "Multi Theme Support",
     ],
@@ -181,7 +161,7 @@ The app helps teams focus more on performance and training by improving organiza
     title: "Digi Host - Manage Domains, Hostings and Clients",
     image: 'https://softcodix.com/wp-content/uploads/2025/09/Digihost-scaled.webp',
     description:
-      "A mobile client for managing hosting and domain services. Helps businesses monitor client subscriptions, service expirations, and automate notifications through a simple admin dashboard.",
+      "Developed a scalable domain and hosting management application for businesses, IT teams, and freelancers to efficiently track and manage multiple client services within a centralized platform.",
     technologies: [
       "Flutter", "Dart", "GetX", "MVC Architecture", "API Integration", "Firebase", "Push Notifications"
     ],
@@ -192,7 +172,7 @@ The app helps teams focus more on performance and training by improving organiza
     title: "Apaale – End-to-End Logistics Platform",
     image: 'https://play-lh.googleusercontent.com/r4YgfR3DcWwFKyHGD1YvC24zFIDbwDBX_NOIou2bVT27kBo4MuSubgpXKDxwfqvOGA=w480-h960-rw',
     description:
-      "An all-in-one logistics platform enabling users to track deliveries, manage drivers and fleets, and generate invoices in real-time—designed for simplicity and scalability.",
+      "Developed a cargo shipment logistics app enabling real-time trip tracking with Google Maps live navigation and WebSockets, with multiple payment options for smooth logistics operations.",
     technologies: [
       "Flutter", "Dart", "Provider", "MVVM Architecture", "API Integration", "Firebase",
       "Push Notifications", "AI Integration", "Google Maps Integration"
@@ -258,9 +238,9 @@ The app helps teams focus more on performance and training by improving organiza
     backgroundColor: '#FDFAFD',
     image: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/fd/a5/d2fda54a-622e-39e5-2a6e-bb2c099cf1c4/unnamed__U00282_U0029.png/460x996bb.webp',
     description:
-      "A responsive web platform for employee management, featuring attendance tracking, shift scheduling, leave management, and payroll processing—designed for simplicity and efficiency.",
+      "Track My Work is a smart HRMS app that simplifies attendance, time tracking, and leave management for employees and HR teams through a single intuitive dashboard.",
     technologies: [
-      "Flutter", "Dart", "GetX", "MVC Architecture", "API Integration", "Mobile Responsiveness"
+      "Swift", "Flutter", "Dart", "GetX", "MVC Architecture", "API Integration",
     ],
     playStore: null,
     appStore: 'https://apps.apple.com/us/app/track-my-work-hrms-tracker/id6749223345',

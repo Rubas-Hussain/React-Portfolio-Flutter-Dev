@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { RiFirebaseFill, RiReactjsLine } from 'react-icons/ri';
-import { SiExpress, SiFlutter, SiMongodb } from 'react-icons/si';
-import { FaNodeJs } from 'react-icons/fa';
-import { DiDart, DiExtjs, DiMysql, } from 'react-icons/di';
+import { RiFirebaseFill } from 'react-icons/ri';
+import { SiFlutter, SiSwift, SiApple } from 'react-icons/si';
+import { DiDart } from 'react-icons/di';
 import { motion } from 'framer-motion';
 import { animateFromLeft, animateFromTop } from '../utils/animation';
 
@@ -99,50 +98,30 @@ function Technologies() {
                 </motion.div>
 
                 <motion.div
-                    variants={iconAnimation(5)}
-                    initial='initial'
-                    animate='animate'
-                    className=' rounded-2xl border-3 border-neutral-800 p-3'>
-                    <RiFirebaseFill className='text-4xl text-amber-500' />
+                    variants={iconAnimation(2.5)}
+                    initial="initial"
+                    animate="animate"
+                    onHoverStart={() => hoverStartHandler('Swift')}
+                    onHoverEnd={() => hoverEndHandler()}
+                    className="relative rounded-2xl border-3 border-neutral-800 p-3 cursor-pointer"
+                >
+                    <SiSwift className="text-4xl text-orange-500" />
                 </motion.div>
 
-                <motion.div
-                    variants={iconAnimation(2)}
-                    initial='initial'
-                    animate='animate'
-                    className=' rounded-2xl border-3 border-neutral-800 p-3'>
-                    <DiMysql className='text-4xl text-blue-600' />
-                </motion.div>
-
-                <motion.div
-                    variants={iconAnimation(6)}
-                    initial='initial'
-                    animate='animate'
-                    className=' rounded-2xl border-3 border-neutral-800 p-3'>
-                    <FaNodeJs className='text-4xl text-green-500' />
-                </motion.div>
                 <motion.div
                     variants={iconAnimation(4)}
                     initial='initial'
                     animate='animate'
                     className=' rounded-2xl border-3 border-neutral-800 p-3'>
-                    <SiMongodb className='text-4xl text-green-500' />
+                    <SiApple className='text-4xl text-neutral-200' />
                 </motion.div>
 
                 <motion.div
-                    variants={iconAnimation(8)}
+                    variants={iconAnimation(5)}
                     initial='initial'
                     animate='animate'
                     className=' rounded-2xl border-3 border-neutral-800 p-3'>
-                    <SiExpress className='text-4xl text-black-100' />
-                </motion.div>
-
-                <motion.div
-                    variants={iconAnimation(7)}
-                    initial='initial'
-                    animate='animate'
-                    className=' rounded-2xl border-3 border-neutral-800 p-3'>
-                    <RiReactjsLine className='text-4xl text-cyan-400' />
+                    <RiFirebaseFill className='text-4xl text-amber-500' />
                 </motion.div>
 
 
